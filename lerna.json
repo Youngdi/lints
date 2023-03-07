@@ -8,9 +8,16 @@
       "Type: Feature": ":rocket: Type: Feature"
     }
   },
-  "ignoreChanges": ["**/__fixtures__/**", "**/__tests__/**", "**/*.md"],
-  "packages": ["packages/*"],
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/*.md"
+  ],
+  "packages": [
+    "packages/*"
+  ],
   "npmClient": "npm",
   "useWorkspaces": true,
-  "version": "0.4.7"
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "0.0.0"
 }
